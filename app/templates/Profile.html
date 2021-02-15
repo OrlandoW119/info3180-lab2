@@ -1,0 +1,36 @@
+
+{% extends "base.html" %}
+
+{% block main %}
+
+    <div class="status">
+        <div class="statushead">
+            <img class ="photo" src="{{url_for('static', filename='Mimg.png')}}" alt="status photo">
+                <h1>Orlando Williams</h1>
+                <h2>@TheGuyO</h2>
+                <h2>Kingston, Jamaica</h2>
+                <h2>January 5, 2021</h2>
+        </div>
+        <div class="statusbod">
+            <p>
+                An IT student at UWI,MONA
+            </p>
+            <ul>
+                <li>
+                    <span class="number">7</span>
+                    <span>Posts</span>
+                </li>
+                <li>
+                    <span class="number">100</span>
+                    <span>Following</span>
+                </li>
+                <li>
+                    <span class="number">250</span>
+                    <span>Followers</span>
+                </li>
+            </ul>
+            <button class="btn">Follow</button>
+        </div>
+    </div>
+
+{% endblock %}
